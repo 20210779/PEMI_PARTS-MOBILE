@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity, Alert } from 'react-native';
 import { useEffect, useState } from 'react';
-import Input from '../components/Inputs/Input'
-import Buttons from '../components/Buttons/Button';
+import Input from '../components/inputs/input' 
+import Buttons from '../components/buttons/button';
 import * as Constantes from '../utils/constantes'
 
 export default function Sesion({ navigation }) {
